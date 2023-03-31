@@ -1,0 +1,79 @@
+name: hear_sitter
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  permission_handler: ^10.2.0
+  sound_stream: ^0.3.0
+  flutter_local_notifications: ^13.0.0
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.0
+  freezed: ^2.3.2
+  provider: ^6.0.5
+  riverpod: ^2.2.0
+  flutter_riverpod: ^2.2.0
+  speech_to_text: ^6.1.1
+  fl_chart: ^0.61.0
+  intl: ^0.18.0
+  syncfusion_flutter_gauges: ^20.4.54
+  sqflite: ^2.2.6
+  path: ^1.8.2
+  shared_preferences: ^2.0.20
+  go_router: ^6.5.0
+  flutter_launcher_icons: ^0.12.0
+  noise_meter: ^3.1.0
+  flutter_email_sender: ^5.2.0
+  audio_streamer: ^2.3.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/logo/logo1.png"
+
+  android_12:
+    icon_background_color: "#ffffff"
+    image: assets/logo/logo3.png
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.1
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icon_dark/
+    - assets/icon_light/
+    - assets/logo/
+
+  fonts:
+    - family: NotoSansKR
+      fonts:
+        - asset: assets/fonts/NotoSansKR-Black.otf
+          weight: 900
+        - asset: assets/fonts/NotoSansKR-Bold.otf
+          weight: 700
+        - asset: assets/fonts/NotoSansKR-Medium.otf
+          weight: 500
+        - asset: assets/fonts/NotoSansKR-Regular.otf
+          weight: 400
+        - asset: assets/fonts/NotoSansKR-Light.otf
+          weight: 300
+        - asset: assets/fonts/NotoSansKR-Thin.otf
+          weight: 100
